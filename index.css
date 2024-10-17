@@ -1,0 +1,64 @@
+/* Estilos gerais */
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para a lista de navegação */
+.menu-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+/* Estilos gerais para links */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para a lista de objetivos */
+.objetivo-lista ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.objetivo-lista li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para a imagem no cabeçalho */
+header img {
+    width: 160px;
+    height: 160px;
+    border-radius: 150px;
+    border: 6px solid #add8e6;
+}
+
+/* Centralização de texto */
+.center {
+    text-align: center;
+}
+
+/* Estilos para os ícones sociais */
+.social-icons {
+    position: fixed;
+    right: 20px;
+    top: 850px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.social-icons a {
+    margin-right: 20px;
+}
+
+
+
+
+
